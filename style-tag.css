@@ -1,11 +1,13 @@
 *{
     box-sizing: border-box;
 }
+html{
+    font-size: 15px
+}
 body{
     background-color: aqua;
     border: solid 1px black;
     margin: 4px;
-
 }
 header{
     background-color: teal;
@@ -20,10 +22,13 @@ nav{
     padding: 5px;
 }
 ul{
+    display: flex;
+    flex-direction: row;
     background-color: red;
     border: solid 1px black;
     margin: 4px;
     padding: 5px;
+    list-style: none;
 }
 li{
     background-color: rgb(255, 234, 0);
@@ -32,16 +37,25 @@ li{
     padding: 5px;
 }
 main{
+    display: flex;
+    flex-direction: column;
     background-color: gold;
     border: solid 1px black;
     margin: 4px;
     padding: 5px;
+    width: 100%;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    height: auto;
 }
 section{
     background-color: purple;
     border: solid 1px black;
     margin: 4px;
     padding: 5px;
+    width: 50%;
 }
 aside{
     background-color: blue;
@@ -50,8 +64,14 @@ aside{
     padding: 5px;
 }
 footer{
+    position: fixed;
     background-color: red;
     border: solid 1px black;
     margin: 4px;
     padding: 5px;
+    bottom:0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
 }

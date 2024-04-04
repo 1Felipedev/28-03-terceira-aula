@@ -1,0 +1,12 @@
+.container{
+    background-color: rgb(217, 255, 0);
+    border: 2px
+}
+.btn-sucess{
+    background-color: green;
+    color:white;
+}
+.btn-cancel{
+    background-color: red;
+    color: white;
+}
